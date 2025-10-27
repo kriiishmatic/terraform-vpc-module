@@ -22,3 +22,7 @@ output "eip" {
 output "nat_gateway_id" {
   value = aws_nat_gateway.nat-gw.id
 }
+
+output "default_vpc_id" {
+  value = data.aws_vpc.default_vpc.id
+}

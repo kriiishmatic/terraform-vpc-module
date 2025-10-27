@@ -65,3 +65,8 @@ variable "eip_tags" {
   type = map
   default = {}
 }
+
+variable "is_peering_enabled" {
+  type = bool
+  default = true
+}
